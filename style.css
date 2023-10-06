@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 10px 250px 10px 250px;
+    background-color: #1F2937;
+}
+
+.logo {
+    height: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*main*/
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*awesome*/
+.awesome {
+    display: flex;
+    flex: 1 1 0;
+    padding: 0px 0px;
+    max-height: 600px;
+    background-color: #1F2937;
+    padding: 100px 250px;
+    gap: 30px;
+}
+
+.left > h1 {
+    padding: 0;
+    margin-top: 0;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.left > p, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.firstbutton {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    width: max-content;
+    height: max-content;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+}
+    
+
+.right {
+    width: 50%;
+    object-fit: cover;
+}
+
+/*random*/
+.allitems {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 80px 300px 160px 300px;
+    width: 100%;
+}
+
+.random > h1 { 
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 38px 0 0 0;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.itempic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.itemdesc {
+    width: 200px;
+    padding: 5px;
+    text-wrap: wrap;
+    margin-top: 5px;
+}
+
+/*quote*/
+.quote {
+    padding: 100px 400px;
+    background-color: #E5E7EB;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    text-align: right;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+/*action*/
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 250px;
+    padding: 40px 70px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.action > div {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+} 
+
+.action > div > h3, .action > div > p {
+    margin: 4px;
+}
+
+.action > button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 20px;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    width: max-content;
+    height: max-content;
+    padding: 5px 20px;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 70px;
+}
